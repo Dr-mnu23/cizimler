@@ -1,24 +1,24 @@
 /*
- * @name Simple Shapes
- * @description This examples includes a circle, square, triangle, and a flower.
+ * @name Temel Şekiller
+ * @description Bu örnekler bir daire, kare, üçgen ve bir çiçek içerir.
  */
 function setup() {
-  // Create the canvas
+  // canvas oluştur
   createCanvas(720, 400);
   background(200);
 
-  // Set colors
+  // Renk Ayarı
   fill(204, 101, 192, 127);
   stroke(127, 63, 120);
 
-  // A rectangle
+  // Dikdörtgen
   rect(40, 120, 120, 40);
-  // An ellipse
+  // elips
   ellipse(240, 240, 80, 80);
-  // A triangle
+  // Üçgen
   triangle(300, 100, 320, 100, 310, 80);
 
-  // A design for a simple flower
+  // Basit bir çiçek
   translate(580, 200);
   noStroke();
   for (let i = 0; i < 10; i ++) {
