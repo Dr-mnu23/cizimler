@@ -1,9 +1,7 @@
 /*
- * @name Instantiation
- * @description Create a p5 instance, which keeps all variables
- * out of the global scope of your page.
- */
-
+  * @name Örnekleme
+  * @description Tüm değişkenleri sayfanızın genel kapsamı dışında tutan bir p5 örneği oluşturun.
+  */
 
 let sketch = function(p) {
   let x = 100;
