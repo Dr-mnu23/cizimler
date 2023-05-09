@@ -1,10 +1,8 @@
 /*
- * @name Pulses
- * @description Software drawing instruments can follow a rhythm or abide by
- * rules independent of drawn gestures. This is a form of collaborative drawing
- * in which the draftsperson controls some aspects of the image and the software
- * controls others.
- */
+  * @name Darbeler
+  * @description Yazılımı çizim araçları, çizilmiş hareketlerden bağımsız olarak bir ritim izleyebilir veya kurallara uyabilir. 
+  * Bu, ressamın görüntünün bazı yönlerini kontrol ettiği ve yazılımın diğerlerini kontrol ettiği bir ortak çizim biçimidir.
+  */
 let angle = 0;
 
 function setup() {
@@ -15,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  // Draw only when mouse is pressed
+  // Sadece mouse basılıyken çiz
   if (mouseIsPressed === true) {
     angle += 5;
     let val = cos(radians(angle)) * 12.0;
